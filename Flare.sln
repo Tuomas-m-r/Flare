@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30611.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Flare", "Flare\Flare.vcxproj", "{94F0C5A2-75F7-4507-AD7C-ED191C71F0C5}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Application", "Game\Game.vcxproj", "{D3FEA2BD-6AD2-491A-8004-4EC43250D96D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{94F0C5A2-75F7-4507-AD7C-ED191C71F0C5}.Debug|x64.ActiveCfg = Debug|x64
+		{94F0C5A2-75F7-4507-AD7C-ED191C71F0C5}.Debug|x64.Build.0 = Debug|x64
+		{94F0C5A2-75F7-4507-AD7C-ED191C71F0C5}.Release|x64.ActiveCfg = Release|x64
+		{94F0C5A2-75F7-4507-AD7C-ED191C71F0C5}.Release|x64.Build.0 = Release|x64
+		{D3FEA2BD-6AD2-491A-8004-4EC43250D96D}.Debug|x64.ActiveCfg = Debug|x64
+		{D3FEA2BD-6AD2-491A-8004-4EC43250D96D}.Debug|x64.Build.0 = Debug|x64
+		{D3FEA2BD-6AD2-491A-8004-4EC43250D96D}.Release|x64.ActiveCfg = Release|x64
+		{D3FEA2BD-6AD2-491A-8004-4EC43250D96D}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9A081219-9DCC-4169-98F3-079CCB9BBE58}
+	EndGlobalSection
+EndGlobal
