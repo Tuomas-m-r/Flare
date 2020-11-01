@@ -1,4 +1,5 @@
 #include "Engine.h"
+#include <iostream>
 
 namespace Flare {
 
@@ -14,6 +15,7 @@ namespace Flare {
 
 	void Engine::Run()
 	{
+		std::cout << "Engine started!" << std::endl;
 		while (true);
 	}
 }
