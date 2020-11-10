@@ -1,11 +1,16 @@
 #include "Engine.h"
+#include "../Defines.h"
+#include "../Util/Logger.h"
+
 #include <iostream>
 
 namespace Flare {
 
 	Engine::Engine()
 	{
-
+		Flare::Util::Logger::Init();
+		Flare::Util::Logger::SetLevel(spdlog::level::trace);
+		FLARE_INFO("Logger initialized!");
 	}
 
 	Engine::~Engine()
@@ -15,7 +20,7 @@ namespace Flare {
 
 	void Engine::Run()
 	{
-		std::cout << "Engine started!" << std::endl;
+		FLARE_INFO("Engine started!");
 		while (true);
 	}
 }

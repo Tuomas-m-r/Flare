@@ -1,10 +1,8 @@
 #include <Flare.h>
 
-using namespace Flare;
-
 int main(int argc, const char** argv)
 {
-	Engine* engine = new Engine();
+	Flare::Engine* engine = new Flare::Engine();
 	engine->Run();
 
 	delete engine;

@@ -37,3 +37,8 @@
 #else
 	#define ASSERT(expression) (expression)
 #endif
+
+// Logger
+#define FLARE_INFO Flare::Util::Logger::GetLogger()->info
+#define FLARE_WARN Flare::Util::Logger::GetLogger()->warn
+#define FLARE_ERROR Flare::Util::Logger::GetLogger()->error
