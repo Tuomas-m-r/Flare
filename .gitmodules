@@ -1,0 +1,3 @@
+[submodule "Flare/Libraries/spdlog"]
+	path = Flare/Libraries/spdlog
+	url = https://github.com/gabime/spdlog
